@@ -150,7 +150,7 @@
         "sendToInput": "main"
       },
       "Content": {
-        "text_handling": "TOKENIZE_HASHING_SVD",
+        "text_handling": "TOKENIZE_COUNTS",
         "minRowsRatio": 0.001,
         "maxRowsRatio": 0.8,
         "maxWords": 0,
@@ -162,10 +162,10 @@
         "stopWordsMode": "NONE",
         "useCustomVectorizer": false,
         "name": "Content",
-        "role": "REJECT",
+        "role": "INPUT",
         "type": "TEXT",
         "state": {
-          "userModified": false,
+          "userModified": true,
           "autoModifiedByDSS": false,
           "recordedMeaning": "FreeText"
         },
@@ -198,7 +198,7 @@
         "sendToInput": "main"
       },
       "tweets": {
-        "text_handling": "TOKENIZE_HASHING_SVD",
+        "text_handling": "TOKENIZE_COUNTS",
         "minRowsRatio": 0.001,
         "maxRowsRatio": 0.8,
         "maxWords": 0,
@@ -210,10 +210,10 @@
         "stopWordsMode": "NONE",
         "useCustomVectorizer": false,
         "name": "tweets",
-        "role": "REJECT",
+        "role": "INPUT",
         "type": "TEXT",
         "state": {
-          "userModified": false,
+          "userModified": true,
           "autoModifiedByDSS": false,
           "recordedMeaning": "FreeText"
         },
@@ -223,7 +223,7 @@
         "sendToInput": "main"
       },
       "Name": {
-        "text_handling": "TOKENIZE_HASHING_SVD",
+        "text_handling": "TOKENIZE_COUNTS",
         "minRowsRatio": 0.001,
         "maxRowsRatio": 0.8,
         "maxWords": 0,
@@ -235,10 +235,10 @@
         "stopWordsMode": "NONE",
         "useCustomVectorizer": false,
         "name": "Name",
-        "role": "REJECT",
+        "role": "INPUT",
         "type": "TEXT",
         "state": {
-          "userModified": false,
+          "userModified": true,
           "autoModifiedByDSS": false,
           "recordedMeaning": "FreeText"
         },
@@ -1092,7 +1092,7 @@
           "min": 1
         },
         "values": [
-          5
+          3
         ],
         "range": {
           "min": 3,
@@ -1105,7 +1105,7 @@
       "algorithm": "auto",
       "p": 2,
       "leaf_size": 30,
-      "enabled": false
+      "enabled": true
     },
     "logistic_regression": {
       "multi_class": "ovr",
@@ -1140,7 +1140,7 @@
         }
       },
       "n_jobs": 2,
-      "enabled": true
+      "enabled": false
     },
     "neural_network": {
       "layer_sizes": {
@@ -1661,7 +1661,7 @@
       "subsample": 0.9,
       "subsample_freq": 1,
       "use_bagging": false,
-      "enabled": false
+      "enabled": true
     },
     "xgboost": {
       "max_depth": {
@@ -1871,7 +1871,7 @@
       "seed": 1337,
       "enable_early_stopping": true,
       "early_stopping_rounds": 4,
-      "enabled": false
+      "enabled": true
     },
     "deep_learning_sparkling": {
       "enabled": false,

@@ -26,7 +26,7 @@ lis.append(text)
 
 test_df = profile_test_prepared_distinct_df # For this sample code, simply copy input to output
 
-test=pd.read_csv("/home/sam/dataiku_design/dss_data/jupyter-run/dku-workdirs/TEST/notebook_editor_for_compute_finalcc1adc65/crawl.csv",encoding="utf-8")
+test_df=pd.read_csv("/home/sam/dataiku_design/dss_data/jupyter-run/dku-workdirs/TEST/notebook_editor_for_compute_finalcc1adc65/crawl.csv",encoding="utf-8")
 # Write recipe outputs
-test_df = dataiku.Dataset("test")
+test = dataiku.Dataset("test")
 test.write_with_schema(test_df)

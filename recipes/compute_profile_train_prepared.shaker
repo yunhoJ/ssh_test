@@ -67,6 +67,49 @@
         "appliesTo": "COLUMNS"
       },
       "alwaysShowComment": false
+    },
+    {
+      "preview": false,
+      "metaType": "PROCESSOR",
+      "disabled": false,
+      "type": "RegexpExtractor",
+      "params": {
+        "found_col": false,
+        "extractAllOccurrences": false,
+        "prefix": "ID",
+        "column": "Name",
+        "pattern": "([a-zA-Z0-9_]+)$"
+      },
+      "alwaysShowComment": false
+    },
+    {
+      "preview": false,
+      "metaType": "PROCESSOR",
+      "disabled": false,
+      "type": "ColumnRenamer",
+      "params": {
+        "renamings": [
+          {
+            "from": "ID1",
+            "to": "ID"
+          }
+        ]
+      },
+      "alwaysShowComment": false
+    },
+    {
+      "preview": true,
+      "metaType": "PROCESSOR",
+      "disabled": false,
+      "type": "RemoveRowsOnEmpty",
+      "params": {
+        "columns": [
+          "ID"
+        ],
+        "keep": false,
+        "appliesTo": "SINGLE_COLUMN"
+      },
+      "alwaysShowComment": false
     }
   ],
   "maxProcessedMemTableBytes": -1,
@@ -95,14 +138,21 @@
   },
   "analysisColumnData": {},
   "columnWidthsByName": {
+    "Deep Details": 300,
+    "IDfound": 100,
+    "Image URL": 300,
+    "i1": 100,
+    "test1": 100,
+    "Name": 296,
     "Source URL": 300,
+    "1": 100,
     "Relation": 106,
     "Type": 100,
     "Relation Date": 113,
-    "Deep Details": 300,
     "Content": 300,
-    "Image URL": 300,
-    "Name": 300
+    "ID1": 100,
+    "ID": 100,
+    "IDs1": 100
   },
   "sorting": [],
   "globalSearchQuery": "",

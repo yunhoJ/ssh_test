@@ -79,6 +79,10 @@
           {
             "name": "Source URL",
             "type": "string"
+          },
+          {
+            "name": "count",
+            "type": "bigint"
           }
         ],
         "userModified": false

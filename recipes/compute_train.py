@@ -16,6 +16,6 @@ train_df = profile_train_prepared_distinct_df # For this sample code, simply cop
 
 
 # Write recipe outputs
-clwo2=pd.read_csv("/home/sam/dataiku_design/dss_data/jupyter-run/dku-workdirs/TEST/notebook_editor_for_compute_finalcc1adc65/clwo2.csv",encoding="utf-8")
+train_df=pd.read_csv("/home/sam/dataiku_design/dss_data/jupyter-run/dku-workdirs/TEST/notebook_editor_for_compute_finalcc1adc65/clwo.csv",encoding="utf-8")
 train = dataiku.Dataset("train")
-train.write_with_schema(clwo2)
+train.write_with_schema(train_df)

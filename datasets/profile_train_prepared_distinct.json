@@ -59,11 +59,11 @@
     "dimensions": []
   },
   "versionTag": {
-    "versionNumber": 1,
+    "versionNumber": 2,
     "lastModifiedBy": {
       "login": "admin"
     },
-    "lastModifiedOn": 1644394762835
+    "lastModifiedOn": 1644394788863
   },
   "creationTag": {
     "versionNumber": 0,
@@ -86,14 +86,6 @@
   },
   "schema": {
     "columns": [
-      {
-        "name": "Relation",
-        "type": "string"
-      },
-      {
-        "name": "Relation Date",
-        "type": "string"
-      },
       {
         "name": "Name",
         "type": "string"

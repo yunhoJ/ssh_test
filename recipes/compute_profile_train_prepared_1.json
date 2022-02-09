@@ -11,6 +11,9 @@
           "map": {
             "profile_train": {
               "repartition": 10
+            },
+            "profile_test": {
+              "repartition": 10
             }
           }
         },
@@ -72,11 +75,11 @@
   },
   "labels": [],
   "versionTag": {
-    "versionNumber": 0,
+    "versionNumber": 1,
     "lastModifiedBy": {
       "login": "admin"
     },
-    "lastModifiedOn": 1644397400029
+    "lastModifiedOn": 1644397402581
   },
   "creationTag": {
     "versionNumber": 0,

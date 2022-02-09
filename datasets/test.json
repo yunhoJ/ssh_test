@@ -59,11 +59,11 @@
     "dimensions": []
   },
   "versionTag": {
-    "versionNumber": 0,
+    "versionNumber": 1,
     "lastModifiedBy": {
       "login": "admin"
     },
-    "lastModifiedOn": 1644398075344
+    "lastModifiedOn": 1644398112887
   },
   "creationTag": {
     "versionNumber": 0,
@@ -85,8 +85,37 @@
     }
   },
   "schema": {
-    "columns": [],
-    "userModified": true
+    "columns": [
+      {
+        "name": "Name",
+        "type": "string"
+      },
+      {
+        "name": "ID",
+        "type": "string"
+      },
+      {
+        "name": "Type",
+        "type": "string"
+      },
+      {
+        "name": "Content",
+        "type": "string"
+      },
+      {
+        "name": "Source URL",
+        "type": "string"
+      },
+      {
+        "name": "count",
+        "type": "bigint"
+      },
+      {
+        "name": "tweets",
+        "type": "string"
+      }
+    ],
+    "userModified": false
   },
   "dkuProperties": [],
   "metrics": {

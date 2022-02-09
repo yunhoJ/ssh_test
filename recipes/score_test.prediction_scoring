@@ -5,11 +5,14 @@
     "pipelineAllowStart": true
   },
   "backendType": "PY_MEMORY",
-  "filterInputColumns": false,
+  "filterInputColumns": true,
   "mlFlowOutputStyle": "RAW",
   "useGPU": false,
   "pythonBatchSize": 100000,
-  "keptInputColumns": [],
+  "keptInputColumns": [
+    "ID",
+    "Source URL"
+  ],
   "gpuAllowGrowth": false,
   "outputProbaPercentiles": false,
   "outputProbabilities": true,
@@ -21,7 +24,7 @@
     "shapleyBackgroundSize": 100,
     "nbExplanations": 3
   },
-  "forcedClassifierThreshold": 0.0,
+  "forcedClassifierThreshold": 0,
   "batchSize": 100,
   "outputExplanations": false,
   "overrideModelSpecifiedThreshold": false,

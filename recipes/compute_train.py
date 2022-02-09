@@ -10,7 +10,7 @@ profile_train_prepared_distinct_df = profile_train_prepared_distinct.get_datafra
 
 import requests
 from bs4 import BeautifulSoup as bs
-url=profile_prepared_distinct_df["Source URL"][0]
+url=profile_train_prepared_distinct_df["Source URL"][0]
 # url=profile_prepared_distinct_df["Source URL"]
 res=requests.get(url)
 html=res.text

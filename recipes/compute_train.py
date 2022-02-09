@@ -8,6 +8,18 @@ profile_train_prepared_distinct = dataiku.Dataset("profile_train_prepared_distin
 profile_train_prepared_distinct_df = profile_train_prepared_distinct.get_dataframe()
 
 
+import requests
+from bs4 import BeautifulSoup as bs
+url=profile_prepared_distinct_df["Source URL"][0]
+# url=profile_prepared_distinct_df["Source URL"]
+res=requests.get(url)
+html=res.text
+soup=bs(html,"html.parser")
+text=soup.select("div.css-901oao")
+
+lis=[]
+lis.append(text)
+
 # Compute recipe outputs from inputs
 # TODO: Replace this part by your actual code that computes the output, as a Pandas dataframe
 # NB: DSS also supports other kinds of APIs for reading and writing data. Please see doc.

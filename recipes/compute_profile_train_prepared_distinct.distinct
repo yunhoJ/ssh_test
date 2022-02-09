@@ -5,12 +5,6 @@
   },
   "keys": [
     {
-      "column": "Relation"
-    },
-    {
-      "column": "Relation Date"
-    },
-    {
       "column": "Name"
     },
     {
@@ -63,6 +57,33 @@
   },
   "outputColumnNameOverrides": {},
   "postFilter": {
+    "$status": {
+      "schema": {
+        "columns": [
+          {
+            "name": "Name",
+            "type": "string"
+          },
+          {
+            "name": "ID",
+            "type": "string"
+          },
+          {
+            "name": "Type",
+            "type": "string"
+          },
+          {
+            "name": "Content",
+            "type": "string"
+          },
+          {
+            "name": "Source URL",
+            "type": "string"
+          }
+        ],
+        "userModified": false
+      }
+    },
     "distinct": false,
     "enabled": false
   }

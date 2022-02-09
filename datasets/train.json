@@ -28,11 +28,11 @@
     "dimensions": []
   },
   "versionTag": {
-    "versionNumber": 2,
+    "versionNumber": 3,
     "lastModifiedBy": {
       "login": "admin"
     },
-    "lastModifiedOn": 1644395470467
+    "lastModifiedOn": 1644395747292
   },
   "creationTag": {
     "versionNumber": 0,
@@ -84,8 +84,7 @@
       },
       {
         "name": "count",
-        "type": "string",
-        "maxLength": 4194304
+        "type": "bigint"
       },
       {
         "name": "tweets",
@@ -94,7 +93,7 @@
       },
       {
         "name": "target",
-        "type": "double"
+        "type": "bigint"
       }
     ],
     "userModified": false

@@ -5,14 +5,11 @@
     "pipelineAllowStart": true
   },
   "backendType": "PY_MEMORY",
-  "filterInputColumns": true,
+  "filterInputColumns": false,
   "mlFlowOutputStyle": "RAW",
   "useGPU": false,
   "pythonBatchSize": 100000,
-  "keptInputColumns": [
-    "ID",
-    "Source URL"
-  ],
+  "keptInputColumns": [],
   "gpuAllowGrowth": false,
   "outputProbaPercentiles": false,
   "outputProbabilities": true,

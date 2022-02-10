@@ -59,11 +59,11 @@
     "dimensions": []
   },
   "versionTag": {
-    "versionNumber": 0,
+    "versionNumber": 1,
     "lastModifiedBy": {
       "login": "admin"
     },
-    "lastModifiedOn": 1644454111144
+    "lastModifiedOn": 1644454131662
   },
   "creationTag": {
     "versionNumber": 0,
@@ -85,7 +85,32 @@
     }
   },
   "schema": {
-    "columns": [],
+    "columns": [
+      {
+        "name": "Relation Date",
+        "type": "string"
+      },
+      {
+        "name": "Name",
+        "type": "string"
+      },
+      {
+        "name": "ID",
+        "type": "string"
+      },
+      {
+        "name": "Type",
+        "type": "string"
+      },
+      {
+        "name": "Content",
+        "type": "string"
+      },
+      {
+        "name": "Source URL",
+        "type": "string"
+      }
+    ],
     "userModified": true
   },
   "dkuProperties": [],

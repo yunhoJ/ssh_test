@@ -1,7 +1,19 @@
 {
   "preFilter": {
+    "uiData": {
+      "mode": "\u0026\u0026",
+      "conditions": [
+        {
+          "input": "Relation Date",
+          "col": "Relation Date",
+          "num": 0,
+          "operator": "not empty"
+        }
+      ]
+    },
+    "$status": {},
     "distinct": false,
-    "enabled": false
+    "enabled": true
   },
   "keys": [
     {
@@ -86,6 +98,10 @@
           {
             "name": "Source URL",
             "type": "string"
+          },
+          {
+            "name": "count",
+            "type": "bigint"
           }
         ],
         "userModified": false

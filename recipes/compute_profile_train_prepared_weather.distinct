@@ -23,7 +23,7 @@
       "column": "Source URL"
     }
   ],
-  "globalCount": false,
+  "globalCount": true,
   "engineParams": {
     "hive": {
       "skipPrerunValidate": false,

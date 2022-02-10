@@ -13,7 +13,7 @@
     },
     "$status": {},
     "distinct": false,
-    "enabled": false
+    "enabled": true
   },
   "keys": [
     {

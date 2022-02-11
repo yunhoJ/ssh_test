@@ -59,11 +59,11 @@
     "dimensions": []
   },
   "versionTag": {
-    "versionNumber": 1,
+    "versionNumber": 2,
     "lastModifiedBy": {
       "login": "admin"
     },
-    "lastModifiedOn": 1644453205512
+    "lastModifiedOn": 1644539867003
   },
   "creationTag": {
     "versionNumber": 0,
@@ -124,7 +124,7 @@
       },
       {
         "name": "prediction",
-        "type": "double"
+        "type": "string"
       }
     ],
     "userModified": true

@@ -98,7 +98,7 @@
       "alwaysShowComment": false
     },
     {
-      "preview": false,
+      "preview": true,
       "metaType": "PROCESSOR",
       "disabled": false,
       "type": "RemoveRowsOnEmpty",

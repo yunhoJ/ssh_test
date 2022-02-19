@@ -1,14 +1,28 @@
 {
   "connection": "test",
   "name": "admin\u0027s notebook on test",
-  "cells": [],
+  "cells": [
+    {
+      "id": "cfzfko62vdd",
+      "type": "QUERY",
+      "querySettings": {
+        "addLimitToStatement": true,
+        "statementsOutOfTransaction": false,
+        "inheritConf": "default",
+        "extraConf": [],
+        "addDkuUdf": false,
+        "statementsParseMode": "SPLIT",
+        "statementsExecutionMode": "PREPARED"
+      }
+    }
+  ],
   "automationLocal": false,
   "versionTag": {
-    "versionNumber": 0,
+    "versionNumber": 1,
     "lastModifiedBy": {
       "login": "admin"
     },
-    "lastModifiedOn": 1645277516478
+    "lastModifiedOn": 1645277520266
   },
   "creationTag": {
     "versionNumber": 0,

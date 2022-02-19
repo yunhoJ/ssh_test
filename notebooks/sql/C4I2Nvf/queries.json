@@ -44,6 +44,28 @@
         },
         "sql": "SELECT * FROM `test`.`CAR_PROJECT_usage_data_copy` LIMIT 1000;",
         "expandedSql": "SELECT * FROM `test`.`CAR_PROJECT_usage_data_copy` LIMIT 1000;"
+      },
+      {
+        "mode": "SQL",
+        "id": "yzVExnVKg87T",
+        "runOn": 1645278024627,
+        "runIn": 224,
+        "runBy": "admin",
+        "connection": "test",
+        "state": "RUNNING",
+        "futureId": "NEIuoAW3",
+        "hash": "18ddf51da525f2cc7f8683c3c1960f39",
+        "querySettings": {
+          "addLimitToStatement": true,
+          "statementsOutOfTransaction": false,
+          "inheritConf": "default",
+          "extraConf": [],
+          "addDkuUdf": false,
+          "statementsParseMode": "SPLIT",
+          "statementsExecutionMode": "PREPARED"
+        },
+        "sql": "SELECT * FROM `test`.`CAR_PROJECT_usage_data_copy` LIMIT 1000;",
+        "expandedSql": "SELECT * FROM `test`.`CAR_PROJECT_usage_data_copy` LIMIT 1000;"
       }
     ]
   }
